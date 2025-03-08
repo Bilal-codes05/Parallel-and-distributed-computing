@@ -5,7 +5,7 @@
 
 #define N 500 //matrix size
 #define RUNS 10 //number of exection
-#define NUM_THREADS 4 //number of threads
+#define NUM_THREADS 4 //NUMBER OF THREADS
 
 
 //Function to multiply matrices using OpenMP (static scheduling)
