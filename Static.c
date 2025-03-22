@@ -10,7 +10,7 @@
 
 //Function to multiply matrices using OpenMP (static scheduling)
 void multiplymatrices(int A[N][N], int B[N][N], int C[N][N]){
-    #pragma omp parallel for num_threads(NUM_THREADS) schedule(static)
+    #pragma omp parallel for num_threads(NUM_THREADS) schedule(static,10)
     for (int i=0; i<N; i++){
         for (int j=0; j<N;j++){
             C[i][j]=0;
